@@ -103,7 +103,7 @@ export default function App() {
 
       {/* Background label */}
       <div className="absolute bottom-6 text-gray-600 text-xs font-medium tracking-widest uppercase">
-        Revolut Clone · Interactive Demo
+        
       </div>
     </div>
   )
