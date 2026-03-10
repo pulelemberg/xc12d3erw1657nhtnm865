@@ -41,16 +41,8 @@ export default function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-950">
       {/* Phone frame wrapper */}
-      <div
-        className="relative overflow-hidden shadow-2xl"
-        style={{
-          width: '100vw',
-          height: '100vh',
-          borderRadius: '44px',
-          border: '8px solid #1a1a1a',
-          boxShadow: '0 0 0 1px #333, 0 40px 80px rgba(0,0,0,0.8)',
-        }}
-      >
+     {/* Full screen wrapper */}
+      <div className="relative overflow-hidden w-full h-screen">
         {/* Base screen layer */}
         <div className="w-full h-full">
           {screen === 'splash' && (
