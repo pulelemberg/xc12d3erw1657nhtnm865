@@ -47,7 +47,7 @@ export default function App() {
           width: '100vw',
           height: '100vh',
           borderRadius: '44px',
-          border: '8px solid #1a1a1a',
+          border: '1px solid #1a1a1a',
           boxShadow: '0 0 0 1px #333, 0 40px 80px rgba(0,0,0,0.8)',
         }}
       >
